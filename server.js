@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cookieParser());
 app.use(express.json());
-app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
+app.use(cors({ credentials: true, origin: "http://localhost:4173" }));
 app.listen(3000, () => {
   console.log("Port 3000");
 });
